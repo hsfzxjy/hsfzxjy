@@ -19,19 +19,17 @@ Here are some ideas to get you started:
 <p align="center">
   <a href="https://i.hsfzxjy.site/">
   Blog
-  </a><span>  · </span>
+  </a><span> · </span>
   <a href="https://i.hsfzxjy.site/works/">
   Publications & Projects
   </a>
 </p>
 
-<table style="width:100%">
-  <tr>
-    <th><a href="https://github.com/hsfzxjy">
-      <img src="https://github-readme-stats.vercel.app/api?username=hsfzxjy&show_icons=true&hide_border=true&count_private=true&include_all_commits=true" />
-    </a></th>
-    <th><a href="https://github.com/hsfzxjy">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hsfzxjy&layout=compact&langs_count=9&hide=Component+Pascal" />
-    </a></th>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/hsfzxjy">
+    <img src="https://github-readme-stats.vercel.app/api?username=hsfzxjy&show_icons=true&hide_border=true&count_private=true&include_all_commits=true" />
+  </a>
+  <a href="https://github.com/hsfzxjy">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hsfzxjy&layout=compact&langs_count=9&hide=Component+Pascal" />
+  </a>
+ </p>
