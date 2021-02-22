@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 
 <h2 align="center">👋 Hello! I'm hsfzxjy.</h2>
 <p align="center">
-  <a href="https://i.hsfzxjy.site/">
+  <a href="http://i.hsfzxjy.site/categories/Tech/">
   Blog
   </a><span> · </span>
   <a href="https://i.hsfzxjy.site/works/">
