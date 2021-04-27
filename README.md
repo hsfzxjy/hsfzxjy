@@ -30,6 +30,6 @@ Here are some ideas to get you started:
     <img src="https://github-readme-stats.vercel.app/api?username=hsfzxjy&show_icons=true&hide_border=true&count_private=true&include_all_commits=true" />
   </a>
   <a href="https://github.com/hsfzxjy">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hsfzxjy&layout=compact&langs_count=10&hide=Component+Pascal,Pascal" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hsfzxjy&layout=compact&langs_count=10&hide=Component+Pascal,Pascal,makefile,css,html,applescript,powershell" />
   </a>
  </p>
