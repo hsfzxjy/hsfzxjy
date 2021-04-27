@@ -24,7 +24,7 @@ Here are some ideas to get you started:
   Publications & Projects
   </a>
 </p>
-
+<p align="center"><em>I code for fun and a better world.</em></p>
 <p align="center">
   <a href="https://github.com/hsfzxjy">
     <img src="https://github-readme-stats.vercel.app/api?username=hsfzxjy&show_icons=true&hide_border=true&count_private=true&include_all_commits=true" />
