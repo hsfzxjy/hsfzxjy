@@ -21,13 +21,13 @@ Here are some ideas to get you started:
   Blog
   </a><span> · </span>
   <a href="https://i.hsfzxjy.site/works/">
-  Publications & Projects
+  Projects
   </a>
 </p>
 <p align="center"><em>I code for fun and a better world.</em></p>
 <p align="center">
   <a href="https://github.com/hsfzxjy">
-    <img src="https://github-readme-stats.vercel.app/api?username=hsfzxjy&show_icons=true&hide_border=true&count_private=true&include_all_commits=true" />
+    <img src="https://github-readme-stats.vercel.app/api?username=hsfzxjy&show_icons=true&hide_border=true&count_private=true&include_all_commits=true" style="max-width: 50%" />
   </a>
   <a href="https://github.com/hsfzxjy">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hsfzxjy&layout=compact&langs_count=10&hide=Component+Pascal,Pascal,makefile,css,html,applescript,powershell" />
