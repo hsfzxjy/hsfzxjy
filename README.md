@@ -22,6 +22,12 @@ Here are some ideas to get you started:
   </a><span> · </span>
   <a href="https://i.hsfzxjy.site/works/">
   Projects
+  </a><span> · </span>
+  <a href="https://i.hsfzxjy.site/works/#Publications">
+  Publications
+  </a><span> · </span>
+  <a href="https://i.hsfzxjy.site/about/">
+  About
   </a>
 </p>
 <p align="center"><em>I code for fun and a better world.</em></p>
