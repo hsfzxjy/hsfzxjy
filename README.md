@@ -33,9 +33,9 @@ Here are some ideas to get you started:
 <p align="center"><em>I code for fun and a better world.</em></p>
 <p align="center">
   <a href="https://github.com/hsfzxjy">
-    <img src="https://github-readme-stats.vercel.app/api?username=hsfzxjy&show_icons=true&hide_border=true&count_private=true&hide_rank=true&include_all_commits=true"/>
+    <img src="https://github-readme-stats-hsfzxjy.vercel.app/api?username=hsfzxjy&show_icons=true&hide_border=true&count_private=true&hide_rank=true&include_all_commits=true"/>
   </a>
   <a href="https://github.com/hsfzxjy">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hsfzxjy&layout=compact&hide_border=true&bg_color=ffffff&langs_count=10&hide=Component+Pascal,Pascal,makefile,css,html,applescript,powershell" />
+    <img src="https://github-readme-stats-hsfzxjy.vercel.app/api/top-langs/?username=hsfzxjy&layout=compact&hide_border=true&bg_color=ffffff&langs_count=10&hide=Component+Pascal,Pascal,makefile,css,html,applescript,powershell" />
   </a>
  </p>
