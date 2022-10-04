@@ -30,7 +30,7 @@ Here are some ideas to get you started:
   About
   </a>
 </p>
-<p align="center"><em>I code for fun and a better world.</em></p>
+<p align="center"><em>I (ab)use tech to build cool things.</em></p>
 <p align="center">
   <a href="https://github.com/hsfzxjy">
     <img src="https://github-readme-stats-hsfzxjy.vercel.app/api?username=hsfzxjy&show_icons=true&hide_border=true&count_private=true&hide_rank=true&include_all_commits=true"/>
