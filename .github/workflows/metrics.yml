@@ -1,0 +1,27 @@
+name: Metrics
+permissions:
+  contents: write
+on:
+  # Schedule daily updates
+  schedule: [{ cron: "0 0 * * *" }]
+  # (optional) Run workflow manually
+  workflow_dispatch:
+  # (optional) Run workflow when pushing on master/main
+  push: { branches: ["master", "main"] }
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          output_action: commit
+          commiter_branch: metrics-renders
+          commiter_message: "update metrics"
+          filename: metrics.plugin.activity.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_activity: yes
+          plugin_activity_limit: 10
+          plugin_activity_days: 0
+          plugin_activity_filter: pr
+          plugin_activity_skipped: hsfzxjy-bot/test
