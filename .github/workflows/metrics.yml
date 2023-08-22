@@ -20,11 +20,6 @@ jobs:
           filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 0
-          plugin_activity_filter: pr
-          plugin_activity_skipped: hsfzxjy-bot/test
 
           plugin_followup: true
           plugin_followup_sections: user
@@ -37,4 +32,19 @@ jobs:
           plugin_languages_categories: programming
           plugin_languages_ignored: Component Pascal, HTML, CSS, Vue, Pascal
 
-          config_order: languages, followup, notable, activity
+          config_order: languages, followup, notable
+      - uses: lowlighter/metrics@latest
+        with:
+          output_action: commit
+          committer_branch: metrics-renders
+          committer_message: "update activity"
+          filename: activity.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 0
+          plugin_activity_filter: pr
+          plugin_activity_skipped: hsfzxjy-bot/test
+
+          config_order: activity
