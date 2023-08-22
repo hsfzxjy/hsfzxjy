@@ -1,0 +1,40 @@
+name: Metrics
+permissions:
+  contents: write
+on:
+  # Schedule daily updates
+  schedule: [{ cron: "0 0 * * *" }]
+  # (optional) Run workflow manually
+  workflow_dispatch:
+  # (optional) Run workflow when pushing on master/main
+  push: { branches: ["master", "main"] }
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          output_action: commit
+          committer_branch: metrics-renders
+          committer_message: "update metrics"
+          filename: metrics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 0
+          plugin_activity_filter: pr
+          plugin_activity_skipped: hsfzxjy-bot/test
+
+          plugin_followup: true
+          plugin_followup_sections: user
+
+          plugin_notable: true
+          plugin_notable_indepth: yes
+
+          plugin_languages: true
+          plugin_languages_details: percentage
+          plugin_languages_categories: programming
+          plugin_languages_ignored: Component Pascal, HTML, CSS, Vue, Pascal
+
+          config_order: languages, followup, notable, activity
