@@ -21,14 +21,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="237.8729660844353" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="237.8729660844353" y="0" width="91.98046709451367" height="8" fill="#dea584"/>
-                    <rect mask="url(#languages-bar)" x="329.853433178949" y="0" width="54.79036836717947" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="384.6438015461285" y="0" width="45.18289998279736" height="8" fill="#00ADD8"/>
-                    <rect mask="url(#languages-bar)" x="429.8267015289258" y="0" width="10.752800042710001" height="8" fill="#555555"/>
-                    <rect mask="url(#languages-bar)" x="440.57950157163583" y="0" width="8.370990746825255" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="448.95049231846104" y="0" width="6.934712027149852" height="8" fill="#000080"/>
-                    <rect mask="url(#languages-bar)" x="455.8852043456109" y="0" width="4.114795654389079" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="237.84566933285222" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="237.84566933285222" y="0" width="92.02269861805667" height="8" fill="#dea584"/>
+                    <rect mask="url(#languages-bar)" x="329.8683679509089" y="0" width="54.78408098152534" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="384.65244893243425" y="0" width="45.17771508761177" height="8" fill="#00ADD8"/>
+                    <rect mask="url(#languages-bar)" x="429.830164020046" y="0" width="10.751566121443457" height="8" fill="#555555"/>
+                    <rect mask="url(#languages-bar)" x="440.58173014148946" y="0" width="8.37003014647339" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="448.9517602879628" y="0" width="6.933916244784915" height="8" fill="#000080"/>
+                    <rect mask="url(#languages-bar)" x="455.88567653274777" y="0" width="4.114323467252214" height="8" fill="#f34b7d"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -240,7 +240,7 @@
                         <span class="name">@microsoft</span>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
                             <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
-                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.06989424983476537 329"/>
+                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.06978881870462902 329"/>
                             <text x="15" y="15" dominant-baseline="central">27</text>
                         </svg>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -248,7 +248,7 @@
                         </svg>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
                             <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
-                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.06999702140334454 329"/>
+                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.06998681099610408 329"/>
                             <text x="15" y="15" dominant-baseline="central">35</text>
                         </svg>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
