@@ -31,7 +31,7 @@ jobs:
           plugin_languages_details: percentage
           plugin_languages_categories: programming
           plugin_languages_analysis_timeout: 60
-          plugin_languages_indepth: true
+          plugin_languages_indepth: false
           plugin_languages_ignored: Component Pascal, HTML, CSS, Vue, Pascal
 
           config_order: languages, followup, notable
