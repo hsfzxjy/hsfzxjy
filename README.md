@@ -4,7 +4,7 @@
   Blog</a><span> · </span>
   <a href="https://i.hsfzxjy.site/works/">
   Projects</a><span> · </span>
-  <a href="https://i.hsfzxjy.site/works/#Publications">
+  <a href="https://i.hsfzxjy.site/works/#publications">
   Publications</a><span> · </span>
   <a href="https://i.hsfzxjy.site/about/">
   About
