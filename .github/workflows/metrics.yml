@@ -21,7 +21,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN2 }}
         run: |
-          python gen.py --user hsfzxjy --output_stats metrics.svg --output_activity activity.svg
+          python gen.py --user hsfzxjy --output-stats metrics.svg --output-activity activity.svg
       - name: Commit and push changes
         run: |
           # push to metrics-render branch
