@@ -12,6 +12,6 @@
 </p>
 <p align="center"><em>I (ab)use tech to build cool things.</em></p>
 <p align="center">
-  <img width="400px" src="https://github.com/hsfzxjy/hsfzxjy/raw/metrics-renders/metrics.svg"/>
-  <img width="400px" src="https://github.com/hsfzxjy/hsfzxjy/raw/metrics-renders/activity.svg"/>
+  <img width="400px" src="https://github.com/hsfzxjy/hsfzxjy/raw/metrics-render/metrics.svg"/>
+  <img width="400px" src="https://github.com/hsfzxjy/hsfzxjy/raw/metrics-render/activity.svg"/>
 </p>
