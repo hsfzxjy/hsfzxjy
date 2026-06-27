@@ -146,18 +146,23 @@ def text(
         st += ";font-style:italic"
     return f'<text x="{x}" y="{y}" text-anchor="{anchor}" style="{st}">{s}</text>'
 
+
 def get_lang_colors():
     import yaml
+
     with open("languages.yml", "r", encoding="utf-8") as f:
         data = yaml.safe_load(f)
     return data
+
 
 def make_svg(user, langs, issues, prs):
     W, H = 600, 390
     top_langs = list(langs.items())[:8]
     lang_total = sum(v for _, v in top_langs) or 1
     lang_colors_map = get_lang_colors()
-    colors = [lang_colors_map.get(lang, {}).get("color", "#000000") for lang, _ in top_langs]
+    colors = [
+        lang_colors_map.get(lang, {}).get("color", "#000000") for lang, _ in top_langs
+    ]
 
     svg = [
         f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
@@ -318,7 +323,7 @@ def main():
     svg = make_svg(args.user, langs, issues, prs)
     with open(args.output_stats, "w", encoding="utf-8") as f:
         f.write(svg)
-    act = get_issues_and_prs(args.user, token)
+    act = get_issues_and_prs(args.user, "")
     svg = make_act_svg(act)
     with open(args.output_activity, "w", encoding="utf-8") as f:
         f.write(svg)
