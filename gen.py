@@ -14,7 +14,7 @@ def req(path, token, params=None):
         url = API + path
     if params:
         url += "?" + urllib.parse.urlencode(params)
-
+    print(url)
     os.makedirs(CACHE_DIR, exist_ok=True)
     cache_key = hashlib.sha256(url.encode("utf-8")).hexdigest()
     cache_path = os.path.join(CACHE_DIR, cache_key + ".json")
