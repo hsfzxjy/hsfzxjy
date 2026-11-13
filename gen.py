@@ -118,13 +118,14 @@ def language_stats(user, token, ignores=frozenset(["HTML", "Component Pascal"]))
 #     return out
 
 
-def bar(x, y, w, h, parts):
+def bar(x, y, w, h, parts, radius=4):
     total = sum(v for _, v, _ in parts) or 1
     cur, s = x, ""
-    for label, val, color in parts:
-        ww = w * val / total
-        s += f'<rect x="{cur:.1f}" y="{y}" width="{ww:.1f}" height="{h}" rx="4" fill="{color}"/>'
-        cur += ww
+    for _, val, color in parts:
+        end = cur + w * val / total
+        width = round(end, 3) - round(cur, 3)
+        s += f'<rect x="{cur:.3f}" y="{y}" width="{width:.3f}" height="{h}" rx="{radius}" fill="{color}"/>'
+        cur = end
     return s
 
 
@@ -157,11 +158,10 @@ def get_lang_colors():
 
 def make_svg(user, langs, issues, prs):
     W, H = 600, 390
-    top_langs = list(langs.items())[:8]
-    lang_total = sum(v for _, v in top_langs) or 1
     lang_colors_map = get_lang_colors()
-    colors = [
-        lang_colors_map.get(lang, {}).get("color", "#000000") for lang, _ in top_langs
+    lang_parts = [
+        (lang, count, lang_colors_map.get(lang, {}).get("color", "#000000"))
+        for lang, count in langs.items()
     ]
 
     svg = [
@@ -175,23 +175,19 @@ text {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial
 
     svg += [
         text(60, 40, f"Most Used Languages ({len(langs)} in Total)", 18),
+        bar(60, 60, 510, 10, lang_parts, radius=0),
     ]
 
-    y = 75
-    for i, (lang, n) in enumerate(top_langs):
-        if i % 2 == 0:
-            dx = dy = 0
-        else:
-            dx = 280
-            dy = 24
-
-        pct = n / lang_total * 100
-        svg.append(
-            f'<circle cx="{70+dx}" cy="{y-5}" r="6" fill="{colors[i % len(colors)]}"/>'
-        )
-        svg.append(text(85 + dx, y, f"{lang}", 14, "#24292f"))
-        svg.append(text(250 + dx, y, f"{pct:.1f}%", 14, "#57606a"))
-        y += dy
+    lang_total = sum(langs.values()) or 1
+    for i, (lang, count, color) in enumerate(lang_parts[:8]):
+        dx = i % 2 * 280
+        y = 95 + i // 2 * 24
+        pct = count / lang_total * 100
+        svg += [
+            f'<circle cx="{70 + dx}" cy="{y - 5}" r="6" fill="{color}"/>',
+            text(85 + dx, y, lang, 14, "#24292f"),
+            text(250 + dx, y, f"{pct:.1f}%", 14, "#57606a"),
+        ]
 
     svg += [
         text(60, 200, "Overall Issues and Pull Requests Status", 18),
