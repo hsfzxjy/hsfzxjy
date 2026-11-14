@@ -4,32 +4,32 @@ text { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,
 .small { font-size:14px; fill:#57606a; }
 </style>
 <rect width="100%" height="100%" fill="white"/>
-<text x="60" y="40" text-anchor="start" style="font-size:18px;font-weight:400;fill:#0969da">Most Used Languages (31 in Total)</text>
-<rect x="60.000" y="60" width="200.702" height="10" rx="0" fill="#555555"/><rect x="260.702" y="60" width="98.946" height="10" rx="0" fill="#f34b7d"/><rect x="359.648" y="60" width="77.182" height="10" rx="0" fill="#3572A5"/><rect x="436.830" y="60" width="46.693" height="10" rx="0" fill="#dea584"/><rect x="483.523" y="60" width="17.664" height="10" rx="0" fill="#f1e05a"/><rect x="501.187" y="60" width="15.234" height="10" rx="0" fill="#00ADD8"/><rect x="516.421" y="60" width="14.454" height="10" rx="0" fill="#6E4C13"/><rect x="530.875" y="60" width="14.428" height="10" rx="0" fill="#000080"/><rect x="545.303" y="60" width="5.021" height="10" rx="0" fill="#89e051"/><rect x="550.324" y="60" width="3.918" height="10" rx="0" fill="#427819"/><rect x="554.242" y="60" width="3.707" height="10" rx="0" fill="#663399"/><rect x="557.949" y="60" width="2.712" height="10" rx="0" fill="#3178c6"/><rect x="560.661" y="60" width="2.295" height="10" rx="0" fill="#41b883"/><rect x="562.956" y="60" width="2.095" height="10" rx="0" fill="#E3F171"/><rect x="565.051" y="60" width="1.116" height="10" rx="0" fill="#c065db"/><rect x="566.167" y="60" width="1.094" height="10" rx="0" fill="#00B4AB"/><rect x="567.261" y="60" width="0.681" height="10" rx="0" fill="#3fb68b"/><rect x="567.942" y="60" width="0.652" height="10" rx="0" fill="#c6538c"/><rect x="568.594" y="60" width="0.565" height="10" rx="0" fill="#000000"/><rect x="569.159" y="60" width="0.220" height="10" rx="0" fill="#DA3434"/><rect x="569.379" y="60" width="0.173" height="10" rx="0" fill="#4B6C4B"/><rect x="569.552" y="60" width="0.164" height="10" rx="0" fill="#a86454"/><rect x="569.716" y="60" width="0.052" height="10" rx="0" fill="#64b970"/><rect x="569.768" y="60" width="0.051" height="10" rx="0" fill="#384d54"/><rect x="569.819" y="60" width="0.050" height="10" rx="0" fill="#b07219"/><rect x="569.869" y="60" width="0.046" height="10" rx="0" fill="#5e5086"/><rect x="569.915" y="60" width="0.024" height="10" rx="0" fill="#101F1F"/><rect x="569.939" y="60" width="0.024" height="10" rx="0" fill="#012456"/><rect x="569.963" y="60" width="0.021" height="10" rx="0" fill="#5686a5"/><rect x="569.984" y="60" width="0.011" height="10" rx="0" fill="#5886E1"/><rect x="569.995" y="60" width="0.005" height="10" rx="0" fill="#3D6117"/>
+<text x="60" y="40" text-anchor="start" style="font-size:18px;font-weight:400;fill:#0969da">Most Used Languages (32 in Total)</text>
+<rect x="60.000" y="60" width="213.023" height="10" rx="0" fill="#555555"/><rect x="273.023" y="60" width="80.091" height="10" rx="0" fill="#f34b7d"/><rect x="353.114" y="60" width="73.496" height="10" rx="0" fill="#3572A5"/><rect x="426.610" y="60" width="50.915" height="10" rx="0" fill="#dea584"/><rect x="477.525" y="60" width="26.312" height="10" rx="0" fill="#f1e05a"/><rect x="503.837" y="60" width="12.369" height="10" rx="0" fill="#00ADD8"/><rect x="516.206" y="60" width="11.700" height="10" rx="0" fill="#6E4C13"/><rect x="527.906" y="60" width="11.679" height="10" rx="0" fill="#000080"/><rect x="539.585" y="60" width="9.011" height="10" rx="0" fill="#3178c6"/><rect x="548.596" y="60" width="4.225" height="10" rx="0" fill="#89e051"/><rect x="552.821" y="60" width="3.843" height="10" rx="0" fill="#663399"/><rect x="556.664" y="60" width="3.475" height="10" rx="0" fill="#41b883"/><rect x="560.139" y="60" width="3.354" height="10" rx="0" fill="#427819"/><rect x="563.493" y="60" width="1.696" height="10" rx="0" fill="#E3F171"/><rect x="565.189" y="60" width="0.903" height="10" rx="0" fill="#c065db"/><rect x="566.092" y="60" width="0.886" height="10" rx="0" fill="#00B4AB"/><rect x="566.978" y="60" width="0.823" height="10" rx="0" fill="#DA3434"/><rect x="567.801" y="60" width="0.551" height="10" rx="0" fill="#3fb68b"/><rect x="568.352" y="60" width="0.528" height="10" rx="0" fill="#c6538c"/><rect x="568.880" y="60" width="0.461" height="10" rx="0" fill="#000000"/><rect x="569.341" y="60" width="0.141" height="10" rx="0" fill="#4B6C4B"/><rect x="569.482" y="60" width="0.133" height="10" rx="0" fill="#a86454"/><rect x="569.615" y="60" width="0.132" height="10" rx="0" fill="#04133b"/><rect x="569.747" y="60" width="0.046" height="10" rx="0" fill="#384d54"/><rect x="569.793" y="60" width="0.042" height="10" rx="0" fill="#64b970"/><rect x="569.835" y="60" width="0.041" height="10" rx="0" fill="#b07219"/><rect x="569.876" y="60" width="0.037" height="10" rx="0" fill="#012456"/><rect x="569.913" y="60" width="0.037" height="10" rx="0" fill="#5e5086"/><rect x="569.950" y="60" width="0.020" height="10" rx="0" fill="#101F1F"/><rect x="569.970" y="60" width="0.017" height="10" rx="0" fill="#5686a5"/><rect x="569.987" y="60" width="0.009" height="10" rx="0" fill="#5886E1"/><rect x="569.996" y="60" width="0.004" height="10" rx="0" fill="#3D6117"/>
 <circle cx="70" cy="90" r="6" fill="#555555"/>
 <text x="85" y="95" text-anchor="start" style="font-size:14px;font-weight:400;fill:#24292f">C</text>
-<text x="250" y="95" text-anchor="start" style="font-size:14px;font-weight:400;fill:#57606a">39.4%</text>
+<text x="250" y="95" text-anchor="start" style="font-size:14px;font-weight:400;fill:#57606a">41.8%</text>
 <circle cx="350" cy="90" r="6" fill="#f34b7d"/>
 <text x="365" y="95" text-anchor="start" style="font-size:14px;font-weight:400;fill:#24292f">C++</text>
-<text x="530" y="95" text-anchor="start" style="font-size:14px;font-weight:400;fill:#57606a">19.4%</text>
+<text x="530" y="95" text-anchor="start" style="font-size:14px;font-weight:400;fill:#57606a">15.7%</text>
 <circle cx="70" cy="114" r="6" fill="#3572A5"/>
 <text x="85" y="119" text-anchor="start" style="font-size:14px;font-weight:400;fill:#24292f">Python</text>
-<text x="250" y="119" text-anchor="start" style="font-size:14px;font-weight:400;fill:#57606a">15.1%</text>
+<text x="250" y="119" text-anchor="start" style="font-size:14px;font-weight:400;fill:#57606a">14.4%</text>
 <circle cx="350" cy="114" r="6" fill="#dea584"/>
 <text x="365" y="119" text-anchor="start" style="font-size:14px;font-weight:400;fill:#24292f">Rust</text>
-<text x="530" y="119" text-anchor="start" style="font-size:14px;font-weight:400;fill:#57606a">9.2%</text>
+<text x="530" y="119" text-anchor="start" style="font-size:14px;font-weight:400;fill:#57606a">10.0%</text>
 <circle cx="70" cy="138" r="6" fill="#f1e05a"/>
 <text x="85" y="143" text-anchor="start" style="font-size:14px;font-weight:400;fill:#24292f">JavaScript</text>
-<text x="250" y="143" text-anchor="start" style="font-size:14px;font-weight:400;fill:#57606a">3.5%</text>
+<text x="250" y="143" text-anchor="start" style="font-size:14px;font-weight:400;fill:#57606a">5.2%</text>
 <circle cx="350" cy="138" r="6" fill="#00ADD8"/>
 <text x="365" y="143" text-anchor="start" style="font-size:14px;font-weight:400;fill:#24292f">Go</text>
-<text x="530" y="143" text-anchor="start" style="font-size:14px;font-weight:400;fill:#57606a">3.0%</text>
+<text x="530" y="143" text-anchor="start" style="font-size:14px;font-weight:400;fill:#57606a">2.4%</text>
 <circle cx="70" cy="162" r="6" fill="#6E4C13"/>
 <text x="85" y="167" text-anchor="start" style="font-size:14px;font-weight:400;fill:#24292f">Assembly</text>
-<text x="250" y="167" text-anchor="start" style="font-size:14px;font-weight:400;fill:#57606a">2.8%</text>
+<text x="250" y="167" text-anchor="start" style="font-size:14px;font-weight:400;fill:#57606a">2.3%</text>
 <circle cx="350" cy="162" r="6" fill="#000080"/>
 <text x="365" y="167" text-anchor="start" style="font-size:14px;font-weight:400;fill:#24292f">Lua</text>
-<text x="530" y="167" text-anchor="start" style="font-size:14px;font-weight:400;fill:#57606a">2.8%</text>
+<text x="530" y="167" text-anchor="start" style="font-size:14px;font-weight:400;fill:#57606a">2.3%</text>
 <text x="60" y="200" text-anchor="start" style="font-size:18px;font-weight:400;fill:#0969da">Overall Issues and Pull Requests Status</text>
 <text x="155" y="240" text-anchor="start" style="font-size:15px;font-weight:400;fill:#0969da">Issues</text>
 <rect x="60.000" y="260" width="48.000" height="10" rx="4" fill="#1a7f37"/><rect x="108.000" y="260" width="172.000" height="10" rx="4" fill="#8250df"/>
